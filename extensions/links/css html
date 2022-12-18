@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <title> hello css</title>
+  </head> 
+  <body>
+    <h1>hello learning how to code</h1>
+    <p> coding is something is something i recently started</p>
+    <a href='dummy.html'>another page</a> associated with this example.</p>
+
+    <h2>List Styles</h2>
+
+    <p>You can style unordered lists with the following bullets:</p>
+
+    <ul>
+      <li>disc</li>
+      <li>circle</li>
+      <li>square</li>
+    </ul>
+
+    <p>And you can number ordered lists with the following:</p>
+
+    <ol>
+      <li>decimal</li>
+      <li>lower-roman</li>
+      <li>upper-roman</li>
+      <li>lower-alpha</li>
+      <li>upper-alpha</li>
+      <li>(and many more!)</li>
+    </ol>
+  </body>
+</html>
+In addition, we’ll need a small dummy page to learn how CSS styles can be applied to multiple web pages. Create dummy.html and add the following:
+
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset='UTF-8'/>
+    <title>Dummy</title>
+  </head>
+  <body>
+    body {
+        color: #414141;               /* Dark gray */
+        background-color: #EEEEEE;    /* Light gray */
+      }
+      
+    <h1>Dummy</h1>
+
+    <p>This is a dummy page that helps us demonstrate reusable CSS
+       stylesheets. <a href='hello-css.html'>Go back</a>.</p>
+
+    <p>Want to try crossing out an <a href='nowhere.html'>obsolete link</a>? This
+       is your chance!</p>
+  </body>
+</html>
+
+  </body>

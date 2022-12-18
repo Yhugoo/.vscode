@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+	<title>Animal Trading Cards</title>
+	<!--<link href="styles.css" rel="stylesheet"-->
+</head>
+<body>
+  <style> 
+/* Box Dimensions/Properties */
+.tradingcard {
+    width: 310px;
+    border: 1px solid #DCDCDC;
+    box-shadow: 6px 6px 1px 0px #EBEBEB;
+    padding-right: .2em;
+    padding-left: .7em;
+    padding-bottom: .6em;
+  }
+  
+  .infobox {
+    width: 283px;
+    border: 1px solid #DCDCDC;
+    padding-right: .5em;
+    padding-left: .5em;
+  }
+  
+  /* Image */
+  .animalPicture {
+    width: 300px;
+    height: 200px;
+    padding-bottom: .8em;
+  }
+  
+  /* Interesting Fact */
+  .funfact {
+    font-style: italic;
+  }
+  
+  /* List Information */
+  .list-info{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  span {
+    font-weight: bold;
+  }
+
+  form {
+    background-color: blue;
+  }
+
+  
+</style>  
+	<div class="tradingcard">
+		<!-- your favorite animal's name goes here -->
+		<h3>Hyena</h3>
+		<!-- your favorite animal's image goes here -->
+		<img class="animalPicture" src="https://www.google.com/search?client=firefox-b-d&q=image+of+a+hyena#imgrc=76DL4RRUs-eC8M" alt="Hyena">
+		<div class="infobox">
+			<!-- your favorite animal's interesting fact goes here -->
+			<p class="funfact">Hyena are one of the best mothers in the animal kingdom, investing more energy per cub than any other terrestial carnivore.</p>
+			<ul class="list-info">
+				<!-- your favorite animal's list items go here -->
+				<li><span>kingdom</span>: Animalia</li>
+				<li><span>phylum</span>: Chordata</li>
+				<li><span>Class</span>: Mammalia</li>
+				<li><span>Order</span>: Carnivora</li>
+        <li><span>Family</span>: Hyaenide</li>
+			</ul>
+			<!-- your favorite animal's description goes here -->
+			<p>Hyenas are more than the carrion eating villians of the lion King. Though you may not ever fall in love with these cunning animals, its hard not to respect them.</p>
+		</div>
+	</div>
+</body>
+</html>
+    
